@@ -18,7 +18,7 @@ export default class App extends Component {
     });
     this.state = {
       dataSource: ds.cloneWithRowsAndSections(data, dataSections, dataRows)
-    }
+    };
   }
 
   render() {
