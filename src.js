@@ -32,6 +32,7 @@ export default class App extends Component {
     );
   }
 }
+        // renderSectionHeader={(sectionData) => <View style={styles.sectionContainer}><Text>{'A'}</Text><Text>{'B'}</Text></View>}
 
 class ListViewRow extends Component {
   render() {
